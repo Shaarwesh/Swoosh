@@ -1,117 +1,177 @@
 # SWOOSH – Campus Convenience, Delivered 🚀
 
-**SWOOSH** is an Android-based campus delivery application developed to make everyday student life more convenient at Universiti Teknikal Malaysia Melaka (UTeM).
+**An Android-Based Campus Delivery Application**
 
-The application connects students who require delivery assistance with fellow students who work as runners. It provides a centralized platform for requesting parcel and food pickups, tracking delivery progress, and managing campus delivery services.
+SWOOSH is a mobile application developed to facilitate parcel collection and food pickup services within the university campus. The platform connects students who require delivery assistance with student runners who provide pickup and delivery services.
 
-The project was developed collaboratively as part of the BITU 3923 Workshop 2 academic project.
+Developed as a group project for the **Bachelor of Computer Science (Software Development)** programme at Universiti Teknikal Malaysia Melaka (UTeM), this project applies software engineering concepts to design, develop, test and integrate a functional mobile application.
 
 ---
 
-## 🎯 Problem Statement
+## 📌 Project Overview
 
-Students living on campus often face difficulties collecting parcels and retrieving food orders due to transportation limitations, busy academic schedules, and the distance between collection points and their dormitories.
+Students living on campus may encounter difficulties collecting parcels and food orders due to busy schedules, transportation limitations and distance.
 
-SWOOSH addresses these challenges by introducing a student-to-student delivery platform that makes campus deliveries more accessible, organized, and convenient.
+SWOOSH addresses these challenges by providing a centralised mobile platform for requesting campus delivery services, coordinating runners and monitoring delivery progress.
 
-## ✨ Key System Modules
+### Project Objectives
+- Develop a mobile-based campus delivery platform.
+- Implement customer and runner functionalities.
+- Facilitate parcel and food pickup requests.
+- Integrate backend services for data management.
+- Provide delivery tracking and feedback functionalities.
 
-The application consists of four main functional areas:
+---
 
-| Module | Main Functionalities |
+## ✨ Features & Functionalities
+
+The application consists of four main modules:
+
+| Module | Functionalities |
 |---|---|
-| Profile Creation & Management | User registration, login, account editing and deactivation |
-| Pickup Creation & Management | Pickup requests, delivery tracking, status updates and payments |
-| Revenue Management | Revenue calculation, distribution and runner earnings tracking |
-| Feedback Management | Runner ratings, customer feedback and report generation |
+| Profile Management | User registration, authentication, profile management and account deactivation |
+| Pickup Management | Create pickup requests, manage deliveries, track status, handle payments and view locations |
+| Revenue Management | Calculate and manage delivery revenue and runner earnings |
+| Feedback Management | Submit feedback, rate runners and generate feedback reports |
 
-## 🛠️ Technologies Used
+### Core Application Capabilities
+- User authentication and account management.
+- Pickup request creation and management.
+- Delivery status monitoring.
+- Location and map integration.
+- Runner assignment and coordination.
+- Payment management.
+- Customer feedback and rating system.
 
-- **Development Environment:** Android Studio
-- **Backend:** Firebase
-- **Database:** Firebase Cloud Firestore
-- **Authentication:** Firebase Authentication
-- **Cloud Storage:** Firebase Storage
-- **Mapping & Location Services:** Google Maps API
+---
 
-## 👩‍💻 My Individual Contributions
+## 🛠️ Technology Stack
 
-I was primarily responsible for the **Customer Module**, contributing throughout the Software Development Life Cycle (SDLC).
+| Technology | Purpose |
+|---|---|
+| Android Studio | Mobile application development environment |
+| Firebase Authentication | User authentication |
+| Firebase Cloud Firestore | Cloud database management |
+| Firebase Storage | File and media storage |
+| Google Maps API | Location and map integration |
+| Android | Mobile application platform |
 
-### 1. Requirement Gathering
-- Identified customer module requirements and functionalities.
-- Analysed customer needs to understand the essential features required for a convenient user experience.
+---
 
-### 2. System Design
-- Contributed to refining customer module layouts.
-- Assisted in designing user interfaces and customer workflows.
+## 👨‍💻 My Development Contribution
 
-### 3. System Development
-- Implemented core functionalities of the customer module.
-- Contributed to developing customer-facing application features.
+**Primary Responsibility: Customer Module Development**
 
-### 4. System Testing
-- Conducted functional testing of customer module features.
-- Identified and checked functionality issues to ensure the module operated as expected.
+As part of the development team, I was responsible for implementing the Customer Module while contributing to different stages of the software development process.
 
-### 5. System Deployment
-- Ensured proper deployment of the customer module.
-- Supported the integration and deployment process of customer-facing functionalities.
+### 1. Requirement Analysis
+- Analysed customer requirements and identified essential application functionalities.
+- Translated user needs into functional requirements for the Customer Module.
+- Identified expected system behaviours and user interactions.
 
-### 6. System Review
-- Reviewed customer module usability.
-- Evaluated the user experience and identified potential areas for improvement.
+### 2. UI/UX & System Design
+- Contributed to designing and refining Customer Module interface layouts.
+- Refined customer navigation and application workflows.
+- Considered usability and consistency across customer-facing interfaces.
 
-## 📱 Customer Module Features
+### 3. Application Development
+- Implemented core functionalities within the Customer Module.
+- Developed customer-facing application components.
+- Contributed to integrating customer functionalities with the overall application.
 
-The customer module provides an interface for students to access and manage delivery services.
+### 4. Software Testing
+- Conducted functional testing on implemented customer features.
+- Verified application behaviour against expected requirements.
+- Identified and investigated functionality issues during testing.
 
-Key customer-facing functionalities include:
+### 5. Integration & Deployment
+- Supported the integration of the Customer Module with other application modules.
+- Contributed to preparing the integrated application for deployment.
 
-- Customer registration and login.
-- Customer profile management.
-- Parcel and pickup information.
-- Delivery status and progress tracking.
-- Runner assignment notifications.
-- Delivery location and map interface.
-- Runner communication.
-- Delivery completion confirmation.
-- Runner ratings and feedback.
+### 6. System Evaluation
+- Reviewed implemented functionalities and customer workflows.
+- Evaluated application usability and identified potential improvements.
+
+---
+
+## 🏗️ Software Development Process
+
+The project involved the following software development activities:
+
+| Phase | Activities |
+|---|---|
+| Requirement Analysis | Gathering and analysing system requirements |
+| System Design | Designing interfaces, workflows and system components |
+| Implementation | Developing individual application modules |
+| Integration | Combining modules into a unified application |
+| Testing | Performing functional and integration testing |
+| Deployment | Preparing the application for deployment |
+| Evaluation | Reviewing system functionality and usability |
+
+---
 
 ## 🧪 Testing
 
-The project incorporated software testing activities to evaluate system functionality and reliability.
+Testing was conducted to verify that application functionalities operated according to their intended requirements.
 
-Testing approaches documented in the project include:
-- Unit Testing
-- Integration Testing
-- Functional Testing
+Testing activities included:
 
-My assigned testing responsibility focused on the Customer Module.
+- **Functional Testing:** Validating individual application features.
+- **Integration Testing:** Checking interactions between different application modules.
+- **User Interface Testing:** Checking interface behaviour and navigation.
+- **Validation Testing:** Verifying application inputs and expected outputs.
 
-## 👥 Project Information
-
-| Details | Description |
-|---|---|
-| Project Name | SWOOSH – Campus Convenience, Delivered |
-| Course | BITU 3923 – Workshop 2 |
-| Institution | Universiti Teknikal Malaysia Melaka (UTeM) |
-| Project Type | Group Academic Project |
-| Development Approach | Agile Methodology |
-| My Role | Customer Module Developer |
-
-## 🌱 Learning Outcomes
-
-Through this project, I gained practical experience in:
-
-- Mobile application development.
-- Requirements analysis and user needs identification.
-- User interface and workflow design.
-- Firebase backend integration.
-- Software testing and debugging.
-- Software Development Life Cycle (SDLC).
-- Collaborative software development.
+My primary testing contribution focused on the Customer Module.
 
 ---
 
-**SWOOSH – Making campus convenience just a pickup away.**
+## 📱 Application Screenshots
+
+*Screenshots of the developed application will be added here.*
+
+<!-- Add your application screenshots here using:
+![Customer Dashboard](screenshots/customer-dashboard.png)
+-->
+
+---
+
+## 📂 Project Details
+
+| Category | Information |
+|---|---|
+| Project | SWOOSH |
+| Project Type | Group Software Development Project |
+| Programme | Bachelor of Computer Science (Software Development) |
+| Institution | Universiti Teknikal Malaysia Melaka (UTeM) |
+| Platform | Android |
+| Development Environment | Android Studio |
+| Primary Contribution | Customer Module Development |
+
+---
+
+## 💡 Technical Skills Demonstrated
+
+- Android Application Development
+- Firebase Integration
+- Cloud Database Management
+- User Authentication
+- API Integration
+- UI/UX Implementation
+- Functional Testing
+- Module Integration
+- Debugging and Problem Solving
+- Software Development Life Cycle (SDLC)
+
+---
+
+## 🎯 Project Outcome
+
+SWOOSH provided hands-on experience in developing a mobile application through collaborative software engineering practices.
+
+The project strengthened my practical understanding of Android application development, backend integration, database management, software testing and modular application development.
+
+It also provided experience in translating functional requirements into application features and integrating individually developed modules into a complete software solution.
+
+---
+
+**SWOOSH – Simplifying campus deliveries through technology.**
